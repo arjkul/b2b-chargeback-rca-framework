@@ -124,15 +124,15 @@ Map each root cause to a specific corrective action with an owner and due date.
 
 ## Data Systems Used
 
-| System | Database | Purpose |
-|---|---|---|
-| Snowflake / MARTS | DB 44 | Order data, fulfillment events, merchant config |
-| ACCI (PostgreSQL) | DB 31 (prod) / DB 32 (staging) | EDI notification history, ASN send events |
-| SHIPMONK_BINLOG | DB 16 | Raw event log for order state changes |
+| System | Purpose |
+|---|---|
+| Snowflake / MARTS |  Order data, fulfillment events, merchant config |
+| ACCI (PostgreSQL) |  EDI notification history, ASN send events |
+| SHIPMONK_BINLOG |  Raw event log for order state changes |
 
 ---
 
-## Case Study: LNDR-REI Chargeback (Anonymized)
+## Case Study: 
 
 **Merchant**: Wholesale apparel brand (anonymized)
 **Retailer**: Major outdoor retailer
